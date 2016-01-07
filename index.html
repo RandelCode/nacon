@@ -31,7 +31,14 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<script type="text/javascript">
+    $(function(){ 
+     var navMain = $("#bs-example-navbar-collapse-1");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
+</script>
 </head>
 
 <body>
@@ -79,9 +86,6 @@
         </div>
         <!-- /.container -->
     </nav>
-
-
-<input type="file" accept="image/*"/>
  <iframe src="./app.html" name="app" id="app" style="min-width:100%;max-width:100%;min-height:100%;" width="100%" height:"100%" frameborder="0" scrolling="yes" onload="scroll(0,0);"></iframe>
     <!-- jQuery -->
     <script src="http://cdn.hirank.net/naconapp/repo/www/js/jquery.js"></script>
