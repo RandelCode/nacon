@@ -17,7 +17,7 @@
     }
     html, body { height: 100% }
     </style>
-    <title>Nacon</title>
+    <title>Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="http://cdn.hirank.net/naconapp/repo/www/css/bootstrap.min.css" rel="stylesheet">
@@ -31,14 +31,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<script type="text/javascript">
-    $(function(){ 
-     var navMain = $("#bs-example-navbar-collapse-1");
-     navMain.on("click", "a", null, function () {
-         navMain.collapse('hide');
-     });
- });
-</script>
 </head>
 
 <body>
@@ -60,22 +52,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="http://cdn.hirank.net/naconapp/content/feed.php" target="app"><i class="glyphicon glyphicon-home"></i> Home</a>
+                        <a href="./home.html"><i class="glyphicon glyphicon-home"></i> Home</a>
                     </li>
                     <li>
-                        <a href="./app.html"><i class="glyphicon glyphicon-pencil"></i> New Post</a>
+                        <a href="./post.html"><i class="glyphicon glyphicon-pencil"></i> New Post</a>
                     </li>
                     <li>
-                        <a href="http://cdn.hirank.net/naconapp/content/mailbox.php" target="app"><i class="glyphicon glyphicon-envelope"></i> Mailbox</a>
+                        <a href="./mailbox.html"><i class="glyphicon glyphicon-envelope"></i> Mailbox</a>
                     </li>
                     <li>
-                        <a href="http://cdn.hirank.net/naconapp/content/search.php" target="app"><i class="glyphicon glyphicon-search"></i> Search</a>
+                        <a href="./search.html"><i class="glyphicon glyphicon-search"></i> Search</a>
                     </li>
                     <li>
-                        <a href="http://cdn.hirank.net/naconapp/content/country.php" target="app"><i class="glyphicon glyphicon-map-marker"></i> Location</a>
+                        <a href="./country.html"><i class="glyphicon glyphicon-map-marker"></i> Location</a>
                     </li>
                     <li>
-                        <a href="http://cdn.hirank.net/naconapp/repo/www/changepic.html"><i class="glyphicon glyphicon-camera"></i> Change Profile Pic</a>
+                        <a href="./changepic.html"><i class="glyphicon glyphicon-camera"></i> Change Profile Pic</a>
                     </li>
                     <li>
                         <a href="http://hirank.net/nacon/update/?v=1.0" target="app"><i class="glyphicon glyphicon-globe"></i> Check for Updates</a>
@@ -86,7 +78,7 @@
         </div>
         <!-- /.container -->
     </nav>
- <iframe src="./app.html" name="app" id="app" style="min-width:100%;max-width:100%;min-height:100%;" width="100%" height:"100%" frameborder="0" scrolling="yes" onload="scroll(0,0);"></iframe>
+ <iframe src="http://cdn.hirank.net/naconapp/content/feed.php" name="app" id="app" style="min-width:100%;max-width:100%;min-height:100%;" width="100%" height:"100%" frameborder="0" scrolling="yes" onload="scroll(0,0);"></iframe>
     <!-- jQuery -->
     <script src="http://cdn.hirank.net/naconapp/repo/www/js/jquery.js"></script>
 
