@@ -242,9 +242,6 @@ var cordova = {
         });
     }
 };
-function onOnline() {               
-            alert("Internet connected")
-}
 
 //If User is Offline....................................
 document.addEventListener("offline", onOffline, false);
