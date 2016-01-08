@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="net.hirank.nacon" version="1.0.0">
   <name>nacon</name>
-  <description>Nacon is a national connection app which connects your to everyone in your city. Unlike social networks, you do not need to add friends or follow anyone to see their posts. No one has to add or follow you to see your posts, verything your post is broadcasted to everyone in your location. Reach locals with the NaconApp</description>
+  <description>Nacon is a national connection app which connects your to everyone in your city. Unlike social networks, you do not need to add friends or follow anyone to see their posts. No one has to add or follow you to see your posts, everything you post is broadcasted to everyone in your location. Reach locals with the NaconApp</description>
   <author href="http://hirank.net" email="info@hirank.net">hiRank Solutions</author>
   <content src="index.html"/>
   <access origin="hirank.net" subdomains="true" />
