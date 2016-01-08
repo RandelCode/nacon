@@ -243,12 +243,4 @@ var cordova = {
     }
 };
 
-//If User is Offline....................................
-document.addEventListener("offline", onOffline, false);
-function onOffline() {
-    alert("Please check your internet connection")
-
-}
-    document.addEventListener("online", onOnline, false);
-
 module.exports = cordova;
