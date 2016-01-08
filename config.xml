@@ -37,7 +37,6 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <icon src="http://cdn.hirank.net/naconapp/repo/icon.png"/>
   <icon src="http://cdn.hirank.net/naconapp/repo/icon.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="http://cdn.hirank.net/naconapp/repo/icon.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="http://cdn.hirank.net/naconapp/repo/icon.png" gap:platform="android" gap:qualifier="hdpi"/>
